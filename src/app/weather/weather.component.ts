@@ -12,6 +12,9 @@ export class WeatherComponent implements OnInit {
   constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit(): void {
+    this.weatherSearchForm = this.formBuilder.group({
+      location: ['']
+    })
   }
 
 }
