@@ -2,13 +2,14 @@
     <div class="row">
         <div class="col-md-6">
             <h3 class="text-center my-4">Search for Weather:</h3>
-            <form action="">
+            <form [formGroup]="weatherSearchForm">
                 <div class="form-group">
                     <input type="text" 
                             class="form-control" 
                             id="weatherLocation" 
                             aria-describedby="weatherLocation" 
-                            placeholder="Please input a location">
+                            placeholder="Please input a location"
+                            formControlName="location">
                 </div>
                 <div class="text-center">
                     <button type="submit" 
