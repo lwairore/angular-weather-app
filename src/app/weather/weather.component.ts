@@ -17,4 +17,8 @@ export class WeatherComponent implements OnInit {
     })
   }
 
+  sendToAPIXU(formValues) {
+    
+  }
+
 }
