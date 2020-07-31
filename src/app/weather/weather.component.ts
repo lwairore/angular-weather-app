@@ -9,6 +9,7 @@ import { ApixuService } from '../apixu.service';
 })
 export class WeatherComponent implements OnInit {
   public weatherSearchForm: FormGroup;
+  public weatherData: any;
 
   constructor(
     private formBuilder: FormBuilder,
@@ -23,7 +24,7 @@ export class WeatherComponent implements OnInit {
   sendToAPIXU(formValues) {
     this.apixuService
       .getWeather(formValues.location)
-      .subscribe(data => console.log(data));
+      .subscribe(data => this.weatherData = data);
     
   }
 
