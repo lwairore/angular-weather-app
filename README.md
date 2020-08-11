@@ -1,27 +1,45 @@
-# WeatherApp
+# Angular Weather App
+![This image displays the homepage for Angular Weather app](src/assets/weather_app.png)
+Angular Weather app is an Angular application that uses Angular, Bootstrap, and the APIXU API. This application allows a user to be able to type a location into a search form and on submission of that form, they're able to see the current weather details for that location they searched for.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+# Demo
+Here is a working live demo: https://iharsh234.github.io/WebApp/ 
 
-## Development server
+## Site
+### Landing page
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![This image displays the homepage for Angular Weather app](src/assets/weather_app.png)
 
-## Code scaffolding
+# [Usage]()
+## Development
+Want to contribute? Great!
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To fix a bug or enhance an existing module, follow these steps:
 
-## Build
+- Fork the [repo](https://github.com/lwairore/github-search)
+- Create a new branch (`git checkout -b improve-feature`)
+- Make the appropriate changes in the files
+- Add changes to reflect the changes made
+- Commit your changes (`git commit -am 'Improve feature'`)
+- Push to the branch (`git push origin improve-feature`)
+- Create a [Pull Request]()
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Bug / Feature Request
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here]() by including your search query and the expected result.
 
-## Running unit tests
+If you'd like to request a new function, feel free to do so by opening an issue [here](). Please include sample queries and their corresponding results.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Built with
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- [APIXU](https://www.apixu.com/)
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [Angular](https://angular.io/) is a front-end web framework built by Google. It allows developers to build a single-page applications modeled around a *model-view-controller* (MVC) or *model-view-viewmodel*(MVVM) software architectural pattern. This architecture divides applications into different, but connected parts allowing for parallel development. Following this pattern, Angular splits its different components into the respective parts of a web application. Its components manage the data and logic that pertain to that component, display the data in its respective view, and adapts or controls the view based on the different messages that it receives from the rest of the app.
+- [Bootstrap](https://getbootstrap.com/) is a front-end library that helps developers build responsive websites (sites that adapt to different devices), quickly and effectively. It makes use of a grid system that divides each page into twelve columns, which ensures that the page maintains its correct size and scale no matter what device it’s being viewed on.
+- [APIXU](https://www.apixu.com/) provides global weather data to users via their API. Using APIXU, a user can retrieve the latest weather as well as future weather forecasts for any location in the world.
+
+# Team
+[Karangu Lucas](https://github.com/lwairore)
