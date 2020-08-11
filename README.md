@@ -3,31 +3,31 @@
 Angular Weather app is an Angular application that uses Angular, Bootstrap, and the APIXU API. This application allows a user to be able to type a location into a search form and on submission of that form, they're able to see the current weather details for that location they searched for.
 
 # Demo
-Here is a working live demo: https://iharsh234.github.io/WebApp/ 
+Here is a working live demo: https://angular-simple-weather-app.web.app/
 
 ## Site
 ### Landing page
 
 ![This image displays the homepage for Angular Weather app](src/assets/weather_app.png)
 
-# [Usage]()
+# [Usage](https://angular-simple-weather-app.web.app/)
 ## Development
 Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
 
-- Fork the [repo](https://github.com/lwairore/github-search)
+- Fork the [repo](https://github.com/lwairore/angular-weather-app.git)
 - Create a new branch (`git checkout -b improve-feature`)
 - Make the appropriate changes in the files
 - Add changes to reflect the changes made
 - Commit your changes (`git commit -am 'Improve feature'`)
 - Push to the branch (`git push origin improve-feature`)
-- Create a [Pull Request]()
+- Create a [Pull Request](https://github.com/lwairore/angular-weather-app/compare)
 
 ## Bug / Feature Request
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here]() by including your search query and the expected result.
+If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an issue [here](https://github.com/lwairore/angular-weather-app/issues/new) by including your search query and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](). Please include sample queries and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/lwairore/angular-weather-app/issues/new). Please include sample queries and their corresponding results.
 
 
 ## Built with
