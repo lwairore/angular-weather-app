@@ -19,6 +19,14 @@
         </div>
         <div class="col-md-6">
             <h3 class="text-center my-4">Weather Details:</h3>
+            <div class="text-center">Current weather conditions: 
+                    <span *ngFor="let condition of weatherData?.current.weather_descriptions">
+                        {{condition}}
+                    </span>
+             </div>
+            <p class="text-center">Temperature in Degrees Celcius: {{weatherData?.current.temperature}}</p>
+            <p class="text-center">Feels like in Degrees Celcius: {{weatherData?.current.feelslike}} </p>
+            <p class="text-center">Location searched: {{weatherData?.location.name}} </p>
         </div>
     </div>
 </div>
